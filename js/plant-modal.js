@@ -123,6 +123,13 @@ export default class PlantModal extends HTMLElement {
         .link {
             text-decoration: none;
             font-size: .9rem;
+            background-color: #9effa3;
+            padding: .25rem .5rem;
+            color: #000;
+            border-radius: 5px;
+        }
+        .link:hover {
+            background-color: #8ff794;
         }
         @media only screen and (max-width: 768px) {
           .image,
@@ -166,7 +173,7 @@ export default class PlantModal extends HTMLElement {
                 target="_blank"
                 class="link"
               >
-                ${plantData.shopUrl || ''}
+                Shop
               </a>
             </div>
           </div>

@@ -37,6 +37,10 @@ export default class PlantCard extends HTMLElement {
           overflow: hidden;
           box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
           cursor: pointer;
+          transition: background-color 0.2s ease;
+        }
+        :host(:hover) {
+          background-color: #7eff8a;
         }
         .plant-info {
           padding: .5rem;
