@@ -1,3 +1,2 @@
-# plants
-Simple page used to track the plants in my garden. Built using web components
-This can be viewed here: https://samo.dev/plants/
+# Garden
+Simple SPA created to track what I have planted in my garden. Built using web components
