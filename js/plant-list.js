@@ -49,6 +49,7 @@ export default class PlantList extends HTMLElement {
         width: 100%;
         margin: .5rem;
         text-transform: capitalize;
+        font-size: 1.25rem;
       }
     `;
     this.shadowRoot.appendChild(style);

@@ -31,7 +31,7 @@ export default class PlantCard extends HTMLElement {
         :host {
           min-height: 10rem;
           border-radius: 10px;
-          background-color: #9effa3;
+          background-color: #ff9e39;
           width: calc(25% - 1rem);
           margin: .5rem;
           overflow: hidden;
@@ -40,7 +40,7 @@ export default class PlantCard extends HTMLElement {
           transition: background-color 0.2s ease;
         }
         :host(:hover) {
-          background-color: #7eff8a;
+          background-color: #ffa84d;
         }
         .plant-info {
           padding: .5rem;

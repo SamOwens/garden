@@ -166,16 +166,6 @@ export default class PlantModal extends HTMLElement {
               <div class="subtitle">Attributes</div>
               ${this.renderAttributes(plantData)}
             </div>
-            <div class="attributes">
-              <div class="subtitle">Links</div>
-              <a 
-                href="${plantData.shopUrl || ''}" 
-                target="_blank"
-                class="link"
-              >
-                Shop
-              </a>
-            </div>
           </div>
         </div>
       </div>
